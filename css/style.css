@@ -7,6 +7,17 @@
         font-weight: 600;
         font-style: normal;
     }
+
+    @font-face {
+        font-family: 'Regular';
+        src: url('../fonts/Graphik-Regular.eot');
+        src: url('../fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Graphik-Regular.woff') format('woff'),
+            url('../fonts/Graphik-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+    }
     a:link a:active a:visited{
         text-decoration: none;
     }
@@ -17,6 +28,7 @@
         font-family: 'Semibold', sans-serif;
         background-color: #000;
         color: #fff;
+        font-size: 18px;
     }
     
     main{
@@ -56,6 +68,21 @@
         font-family: 'Semibold', sans-serif;
         margin: 0%;
     }
+
+    h2{
+        font-size: 48px;
+    }
+    p{
+        font-family: 'Regular', sans-serif;
+        line-height: 31px;
+        font-size: 18px;
+
+    }
+    
+    #p1{
+        font-size: 24px;
+    
+    }
     
     .main_img{
         height: 570px;
@@ -73,17 +100,17 @@
         }
     
     article{
-        padding-top: 40px;
+        padding: 40px 10px 50px 10px;
         display: flex;
         flex-direction: column;
     
-        text-align: center;
+        text-align: left;
     }
     .art_proyectos{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-bottom: 50px;
+        text-align: center;
     }
     .proyecto{
         width: 300px;
@@ -96,6 +123,44 @@
         padding-top: 30px;
     }
     
+
+
+
+    .art_proyectos{
+        grid-area: tarjetas;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:center;
+        padding-top: 30px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+    .proyecto{
+        display: flex;
+        align-items: flex-end;
+        border: 1px;
+        border-radius: 15px;
+        font-size: 13px;
+        margin:10px;
+        max-width: 370px;
+        min-width: 270px;
+        min-height: 380px;
+        padding: 10px;
+        background-color: #363537;
+    }
+
+
+
+
+
+
+
+
+
+
     img{
        
         width: 250px;
