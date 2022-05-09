@@ -44,7 +44,7 @@ header {
 
 /*  nav: Top Menu Section
 ----------------------------------------------- */
-.nav {
+.law__nav {
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -52,15 +52,15 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.logo{
+.law__logo{
   width: 100px;
   height: 35px;
 }
-.nav ul {
+.law__nav ul {
   display: flex;
   color: var(--white);
 }
-.nav ul li:not(#burger) {
+.law__nav ul li:not(#burger) {
   visibility: hidden;
   margin-right: 1.5em;
 }
@@ -91,7 +91,7 @@ header {
 
 /*  MAIN: Slider Section
 ----------------------------------------------- */
-.main {
+.law__main {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -235,10 +235,10 @@ background-image: url("https://www.transparenttextures.com/patterns/classy-fabri
 }
 
 @media screen and (max-width: 600px) {
-  .nav {
+  .law__nav {
     padding: 1em 2em;
   }
-  .nav h1 {
+  .law__nav h1 {
     font-size: 0.9rem;
   }
   section {
@@ -266,7 +266,7 @@ background-image: url("https://www.transparenttextures.com/patterns/classy-fabri
 }
 /* CARDS */
 
-.container{
+.law__container{
   height: 100vh;
   width: 100vw;
   max-width: 1280px;
@@ -279,7 +279,7 @@ background-image: url("https://www.transparenttextures.com/patterns/classy-fabri
 }
 
 
-.border{
+.law__border{
   height: 369px;
   width: 290px;
   background: transparent;
@@ -287,12 +287,12 @@ background-image: url("https://www.transparenttextures.com/patterns/classy-fabri
   transition: border 1s;
   position: relative;
 } 
-.border:hover {
+.law__border:hover {
     border: 1px solid white;
   }
    
 
-.card{
+.law__card{
   height: 379px;
   width: 300px;
   background: grey;
@@ -309,42 +309,42 @@ background-image: url("https://www.transparenttextures.com/patterns/classy-fabri
 
 }
  
-.card0{
+.law__card0{
   background: url('../images/silvestri.jpg') center center no-repeat;
   background-size: 300px;
 }
-.card0:hover{
+.law__card0:hover{
     background: url('../images/silvestri.jpg') left center no-repeat;
     background-size: 600px;
   }
-  .border:hover h2{
+  .law__border:hover h2{
       opacity: 1;
     }
      
-    .card0:hover .fa{
+    .law__card0:hover .fa{
       opacity: 1;
     }
   
 
 
 
-.card1{
+.law__card1{
   background: url('../images/depalma.jpg') center center no-repeat;
   background-size: 300px;
    }
 
-   .card1:hover{
+   .law__card1:hover{
     background: url('../images/depalma.jpg') left center no-repeat;
     background-size: 600px;
 
   }
   
-  .card1:hover h2{
+  .law__card1:hover h2{
       opacity: 1;
     }
    
 
-    .card1:hover .fa{
+    .law__card1:hover .fa{
       opacity: 1;
     }
        
@@ -364,7 +364,7 @@ h2{
 }
 
 
-.icons{
+.law__icons{
   position: absolute;
   fill: #fff;
   color: #fff;
@@ -395,14 +395,14 @@ nav{
     grid-area: nav;
     display: none;
 }
-.main__2{
+.law__main__2{
     grid-area: quienes-somos;
 
     display: flex;
     flex-direction: column-reverse;
 
 }
-.main__3{
+.law__main__3{
     grid-area: redes;
 
     display: flex;
@@ -435,48 +435,48 @@ nav ul li{
 }
 
 /* MAIN 2 */
-.main__2{
+.law__main__2{
   background-color: #F6F6F6;
   padding: 40px 0px 40px 0px;
 }
-.main__2 h3{
+.law__main__2 h3{
   color: #1c415b;
   padding-bottom: 30px;
 }
-.main__2__a{
+.law__main__2__a{
   display: flex;
   flex-direction: column;
 }
-.main__a__ti h3{
+.law__main__a__ti h3{
   color: #1c415b;
   font-size: 30px;
   text-align: center;
   padding-bottom: 30px;
 }
 
-.main__2__b{
+.law__main__2__b{
   text-align: center;
   margin-bottom: 40px;
   padding: 0px 15px 0px 15px;
 }
-.main__2__b h3{
+.law__main__2__b h3{
   font-size: 30px;
   color: #1c415b;
 }
 
 /* MAIN 3 */
 
-.main__3__a{
+.law__main__3__a{
   position: relative;
   text-align: center;
   margin-bottom: 40px;
 }
-.main__3__c{
+.law__main__3__c{
   display: flex;
   flex-direction: column;
   margin: 10px 0px 10px 0px;
 }
-.main__3__c h4{
+.law__main__3__c h4{
   text-align: center;
   padding-bottom: 15px;
 }
@@ -485,20 +485,20 @@ nav ul li{
 /* MEDIA ICONS */
 
 
-.main__3__c ul{
+.law__main__3__c ul{
   display: flex;
   justify-content: space-evenly;
   margin-top: 5px;
   max-width: 300px;
 
 }
-.main__3__c ul li{
+.law__main__3__c ul li{
   display: inline-block;
   width: 60px;
   height: 60px;
   text-align: center;
 }
-.main__3__c ul li a{
+.law__main__3__c ul li a{
   display: block;
   background-color: #F6F6F6;
   color: #1c415b;
@@ -509,35 +509,35 @@ nav ul li{
   border: 0.0625rem;
   border-radius: 0.1875rem;
 }
-.main__3__c ul:hover a{
+.law__main__3__c ul:hover a{
   filter:blur(0.125rem);
 
 }
-.main__3__c ul li a:hover{
+.law__main__3__c ul li a:hover{
   transform: translateY(-0.1875rem) scale(1.05);
   box-shadow: 0rem 0.3125rem 0.3125rem 0rem rgba(0, 0, 0 , .2);
   filter: none;
 }
-.main__3__c ul li .facebook:hover{
+.law__main__3__c ul li .facebook:hover{
   background: var(--facebook);
 }
-.main__3__c ul li .twitter:hover{
+.law__main__3__c ul li .twitter:hover{
   background: var(--twitter);
 }
-.main__3__c ul li .instagram:hover{
+.law__main__3__c ul li .instagram:hover{
   background: var(--instagram);
 }
 
 /* FOOTER */
 
-.form__h3{
+.law__form__h3{
   text-align: center;
   font-size: 30px;
   font-weight: 400;
   margin: 20px;
   color: #fff;
 }
-.footer__b{
+.law__footer__b{
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -585,20 +585,20 @@ nav ul li{
   font-weight: 500;
   margin-top: 40px;
 }
-.footer__a h3{
+.law__footer__a h3{
   text-align: center;
   color: #fff;
   font-size: 30px;
   padding: 30px 20px 30px 20px;
   font-weight: 400;
 }
-.footer__maps{
+.law__footer__maps{
   display:flex;
   justify-content: center;
  
   align-items: center;
 }
-.iframe__maps{
+.law__iframe__maps{
   display: block;
   height: 300px;
   width: 300px;
@@ -608,13 +608,13 @@ nav ul li{
 }
 
 @media screen and (min-width: 1023px){
-  .nav{
+  .law__nav{
     position: absolute;
   }
-  .nav ul{
+  .law__nav ul{
     display: none;
   }
-  .logo{
+  .law__logo{
     width: 150px;
     height: auto;
   }
@@ -640,13 +640,13 @@ nav ul li{
   align-content: center;
   align-items: center;
 }
-.main__2{
+.law__main__2{
   align-items: center;
 }
-  .main__2__b{
+  .law__main__2__b{
     max-width: 500px;
   }
-  .container{
+  .law__container{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
@@ -658,7 +658,7 @@ nav ul li{
     width: 700px;
     height: auto;
   }
-  .main__3__c ul{
+  .law__main__3__c ul{
     justify-content: space-evenly;
     max-width: none;
   }
@@ -667,10 +667,10 @@ nav ul li{
     justify-content: space-evenly;
     align-items:flex-start;
   }
-  .footer__a{
+  .law__footer__a{
     margin-top: 20px;
   }
-  .footer__b{
+  .law__footer__b{
     margin: 30px;
   }
 }

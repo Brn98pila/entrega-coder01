@@ -9,7 +9,7 @@ body{
     line-height: 24px;
     font-style: light;
 }
-.main_1 h1{
+.grow_main_1 h1{
     font-weight: 400;
     margin: 0%;
 }
@@ -40,14 +40,14 @@ nav{
     flex-direction: row;
     justify-content: space-between;
 }
-.nav_1 ul{
+.grow_nav_1 ul{
     display: none;
 }
-.nav_2 img{
+.grow_nav_2 img{
     width: 50px;
     height: auto;
 }
-.nav_3{
+.grow_nav_3{
     display: none;
 }
 /* MAIN */
@@ -69,7 +69,7 @@ main{
     "main9"
 }
 
-.main_1{
+.grow_main_1{
     grid-area: "main1";
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ main{
 
     box-shadow: inset 10px 10px 100px #040404;
 }
-.main_2{
+.grow_main_2{
     grid-area: "main2";
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_3{
+.grow_main_3{
     grid-area: "main3";
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_4{
+.grow_main_4{
     grid-area: "main4";
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_5{
+.grow_main_5{
     grid-area: "main5";
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_6{
+.grow_main_6{
     grid-area: "main6";
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_7{
+.grow_main_7{
     grid-area: "main7";
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@ main{
     background-repeat: no-repeat;
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_8{
+.grow_main_8{
     grid-area: "main8";
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ main{
 
     box-shadow: inset 10px 10px 150px #040404;
 }
-.main_9{
+.grow_main_9{
     grid-area: "main9";
     display: flex;
     flex-direction: column;
@@ -216,13 +216,13 @@ footer{
     "footer2"
     "footer3";
 }
-.footer_1{
+.grow_footer_1{
     grid-area: "footer1";
 }
-.footer_2{
+.grow_footer_2{
     grid-area: "footer2";
 }
-.footer_3{
+.grow_footer_3{
     grid-area: "footer3";
 }
 hr{
@@ -230,18 +230,18 @@ hr{
     border-radius: 1px;
     border-color: #999;
 }
-.footer_1 ul li{
+.grow_footer_1 ul li{
     margin-bottom: 17px;
     margin-top: 17px;
 }
-.footer_3 h3{
+.grow_footer_3 h3{
     display: block;
     text-align: center;
     justify-content: center;
     align-self: center;
     align-items: center;
 }
-.footer_3_ul{
+.grow_footer_3_ul{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -267,38 +267,38 @@ hr{
         "main6  main7"
         "main8  main9";
     }
-.main_1{
+.grow_main_1{
     grid-area: main1;
 }
-.main_2{
+.grow_main_2{
     grid-area: main2;
 }
-.main_3{
+.grow_main_3{
     grid-area: main3;
 }
-.main_4{
+.grow_main_4{
     grid-area: main4;
 }
-.main_5{
+.grow_main_5{
     grid-area: main5;
 }
-.main_6{
+.grow_main_6{
     grid-area: main6;
 }
-.main_7{
+.grow_main_7{
     grid-area: main7;
 }
-.main_8{
+.grow_main_8{
     grid-area: main8;
 }
-.main_9{
+.grow_main_9{
     grid-area: main9;
 }
-.nav_1 ul{
+.grow_nav_1 ul{
     display: flex;
     flex-direction: row;
 }
-.nav_1 ul li{
+.grow_nav_1 ul li{
     padding: 5px;
 
 }

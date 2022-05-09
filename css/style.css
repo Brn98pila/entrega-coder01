@@ -44,20 +44,20 @@
         height: 570px;
         
     }
-    .titulo{
+    .portfolio__titulo{
         position: relative;
     }
-    .titulo_2{
+    .portfolio__titulo_2{
         display: none;
         position: absolute;
         top: 250px;
     }
-    .titulo:active + .titulo_2{
+    .portfolio__titulo:active + .portfolio__titulo_2{
     
         display: block;
         position: absolute;
     }
-    .titulo:active{
+    .portfolio__titulo:active{
         opacity: 0;
     }
     
@@ -83,19 +83,13 @@
         font-size: 24px;
     
     }
-    
-    .main_img{
-        height: 570px;
-        width: auto;
-    }
-    
-    .a{
+    .portfolio__a{
     color: #2538cc;
     }
-    .b{
+    .portfolio__b{
         color: #fff;
         }
-    .c{
+    .portfolio__c{
         color: #fff;
         }
     
@@ -106,7 +100,7 @@
     
         text-align: left;
     }
-    .art_proyectos{
+    .portfolio__art_proyectos{
     
         display: flex;
         flex-direction: column;
@@ -117,7 +111,7 @@
         align-content: center;
         align-items: center;
     }
-    .proyecto{
+    .portfolio__proyecto{
         display: flex;
         align-items: flex-end;
         border: 1px;
@@ -150,7 +144,7 @@
 
     @media screen and (min-width: 768px)
     {
-        .art_proyectos{
+        .portfolio__art_proyectos{
             flex-direction: row;
             flex-wrap: wrap;
         }
