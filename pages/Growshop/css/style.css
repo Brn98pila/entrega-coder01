@@ -230,9 +230,12 @@ hr{
     border-radius: 1px;
     border-color: #999;
 }
-.grow_footer_1 ul li{
+.grow_footer_1{
     margin-bottom: 17px;
     margin-top: 17px;
+
+    background-color: #000 !important;
+    color: #000 !important;
 }
 .grow_footer_3 h3{
     display: block;
