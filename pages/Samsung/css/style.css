@@ -1,4 +1,4 @@
-body{
+.samsung_page{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ ul li{
 
 /* GRID */
 
-body{
+.samsung_page{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -29,33 +29,33 @@ body{
     "main6"
     "main7";
 }
-nav{
+.sg_nav{
     grid-area: nav;
 }
-.main_1{
+.sg_main_1{
     grid-area: main1;
 }
-.main_2{
+.sg_main_2{
     grid-area: main2;
 }
-.main_3{
+.sg_main_3{
     grid-area: main3;
 }
-.main_4{
+.sg_main_4{
     grid-area: main4;
 }
-.main_5{
+.sg_main_5{
     grid-area: main5;
 }
-.main_6{
+.sg_main_6{
     grid-area: main6;
 }
-.main_7{
+.sg_main_7{
     grid-area: main7;
 }
 
 /* NAV */
-nav{
+.sg_nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -63,23 +63,23 @@ nav{
     z-index: 10;
 
 }
-nav ul{
+.sg_nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 0%;
 }
-nav ul li{
+.sg_nav ul li{
     padding: 5px;
 }
 
 
-.logo{
+.sg_logo{
     width: 100px;
     height: auto;
 }
 
-.log button{
+.sg_log button{
     position: relative;
     border: 1px;
     border-radius: 11px;
@@ -87,31 +87,31 @@ nav ul li{
     padding: 12px 20px 12px 20px;
     z-index: 1;
 }
-.log button a{
+.sg_log button a{
     position: relative;
     color: #fff;
     font-weight: 300;
 }
 /* MAIN 1 */
 
-.main_1{
+.sg_main_1{
     padding-bottom: 50px;
     padding-left: 10px;
 }
-.main_1 h1{
+.sg_main_1 h1{
     color: #000;
     font-weight: 400;
     max-width: 1000px;
 
 }
 
-.main_1_btns{
+.sg_main_1_btns{
     display: flex;
     justify-content:left;
     max-width: 300px;
     margin-top: 30px;
 }
-.main_1_btn_1 {
+.sg_main_1_btn_1 {
     padding: 12px 30px 12px 30px;
     background-color: #323232;
     color: white;
@@ -123,12 +123,12 @@ nav ul li{
 
 
 }
-.main_1_btn_1 a{
+.sg_main_1_btn_1 a{
     color: #fff;
     font-weight: 500;
     text-align: left;
 }
-.main_1_btn_2{
+.sg_main_1_btn_2{
     padding: 12px 24px 12px 24px;
     background-color: #fff;
 
@@ -139,16 +139,16 @@ nav ul li{
 
     margin-left: 30px;
 }
-.main_1_btn_2 a{
+.sg_main_1_btn_2 a{
     color: #999;
     font-weight: 700;
 }
 
 /* CIRCULOS MAIN*/
-.contenedor_circulos{
+.sg_contenedor_circulos{
     position: absolute;
 }
-.main_1_img{
+.sg_main_1_img{
     display: none;
  
 }
@@ -178,7 +178,7 @@ nav ul li{
     }
     
 }
-.main_1_img_2{
+.sg_main_1_img_2{
     display: none;
    
 }
@@ -194,7 +194,7 @@ nav ul li{
 
 /* MAIN 2 */
 
-.main_2{
+.sg_main_2{
     border: 1px solid;
     color: white;
     padding-bottom: 50px;
@@ -207,34 +207,34 @@ nav ul li{
     "tarjetas       tarjetas";
 }
 
-.main_2_productos{
+.sg_main_2_productos{
     width: 50px;
     height: auto;
 
 }
 
-.main_2_text{
+.sg_main_2_text{
     grid-area: titulo;
 
     padding: 50px 30px 30px 70px;
     max-width: 600px;
 }
-.main_2_text p{
+.sg_main_2_text p{
     color: #999;
 }
-.main_2_text p b{
+.sg_main_2_text p b{
     color: #fff;
 }
-.main_2_img{
+.sg_main_2_img{
     grid-area: foto;
     display: none;
 }
-.follow{
+.sg_follow{
     width: 300px;
     height: auto;
 }
 
-.main_2_list{
+.sg_main_2_list{
     grid-area: tarjetas;
 
     display: flex;
@@ -246,7 +246,7 @@ nav ul li{
     align-content: center;
     align-items: center;
 }
-.main_2_a, .main_2_b,  .main_2_c{
+.sg_main_2_a, .sg_main_2_b,  .sg_main_2_c{
     display: flex;
     align-items: flex-end;
     border: 1px;
@@ -259,10 +259,10 @@ nav ul li{
     padding: 10px;
     background-color: #363537;
 }
-.main_2_a div, .main_2_b div, .main_2_c div{
+.sg_main_2_a div, .sg_main_2_b div, .sg_main_2_c div{
     padding: 10px;
 }
-.main_2_a div p, .main_2_b div p, .main_2_c div p{
+.sg_main_2_a div p, .sg_main_2_b div p, .sg_main_2_c div p{
     color: #999;
 }
 div div h4{
@@ -272,7 +272,7 @@ div div h4{
 
 /* MAIN 3 */
 
-.main_3{
+.sg_main_3{
     position: relative;
     margin: auto;
     border: 1px;
@@ -314,7 +314,7 @@ div div h4{
 
 /* MAIN 5 */
 
-.main_4{
+.sg_main_4{
     width: 95%;
     position: relative;
     margin: auto;
@@ -328,7 +328,7 @@ div div h4{
     background-position: center;
     height: 700px;
 }
-.main_4_transform_a{
+.sg_main_4_transform_a{
     text-align: left;
     padding: 30px 30px 10px 30px;
     align-self: flex-start;
@@ -336,16 +336,16 @@ div div h4{
     margin-right: 100px;
     
 }
-.main_4_transform_a h5{
+.sg_main_4_transform_a h5{
     color: #fff;
     font-size: 25px;
     font-weight: 400;
     margin: 10px 0px 10px 0px;
 }
-.main_4_transform_a p{
+.sg_main_4_transform_a p{
     color: #999;
 }
-.main_4_transform_b{
+.sg_main_4_transform_b{
     display: flex;
     align-content: flex-end;
     height: 360px;
@@ -355,24 +355,24 @@ div div h4{
     padding: 30px 30px 10px 30px;
     
 }
-.main_4_transform_b h5{
+.sg_main_4_transform_b h5{
     color: #fff;
     font-size: 25px;
     font-weight: 400;
     margin: 10px 0px 10px 0px;
 }
-.main_4_transform_b p{
+.sg_main_4_transform_b p{
     color: #999;
 }
-.main_4_text_a{
+.sg_main_4_text_a{
     max-width: 400px;
 }
-.main_4_text_b{
+.sg_main_4_text_b{
     max-width: 400px;
 }
 /* MAIN 5 */
 
-.main_5{
+.sg_main_5{
     background-color: #F8F6F8;
     display: flex;
     flex-direction: column;
@@ -380,15 +380,15 @@ div div h4{
     align-items: center;
     padding-bottom: 200px;
 }
-.main_5_a{
+.sg_main_5_a{
     max-width: 350px;
     padding: 30px 50px 30px 30px;
 }
-.main_5_btn{
+.sg_main_5_btn{
     display: flex;
     flex-wrap: wrap;
 }
-.main_5_btn a{
+.sg_main_5_btn a{
     padding: 10px 20px 10px 20px;
     border: 1px solid #000;
     border-radius: 30px;
@@ -397,11 +397,11 @@ div div h4{
     margin: 5px 10px 5px 0px;
     position: relative;
 }
-.main_5_btn a:hover{
+.sg_main_5_btn a:hover{
     background-color: #000;
     color: #fff;
 }
-.main_5_b{
+.sg_main_5_b{
     width: 300px;
     height: 300px;
     border: 1px;
@@ -412,14 +412,14 @@ div div h4{
     background-color: #fff;
 
 }
-.chart{
+.sg_chart{
     width: 250px;
     height: 250px;
 }
 
 /* MAIN 6 */
 
-.main_6{
+.sg_main_6{
     background-color: #242324;
     color: #fff;
     display: flex;
@@ -429,26 +429,26 @@ div div h4{
     padding: 30px;
     max-height: 500px;
 }
-.main_6_a{
+.sg_main_6_a{
     position: relative;
     bottom: 100px;
 }
-.main_6_b{
+.sg_main_6_b{
     display: flex;
     flex-direction: column;
     text-align: left;
     max-width: 600px;
 }
-.main_6_b h3{
+.sg_main_6_b h3{
     font-weight: 400;
     font-size: 25px;
     padding: 0%;
 }
-.main_6_b p{
+.sg_main_6_b p{
     color: #999;
 }
 
-.main_6_phone{
+.sg_main_6_phone{
     display: none;
     width: 300px;
     height: auto;
@@ -456,16 +456,16 @@ div div h4{
 
 /* MAIN 7 */
 
-.main_7{
+.sg_main_7{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.main_7_circle_a{
+.sg_main_7_circle_a{
     display: none;
     
 }
-.main_7_text{
+.sg_main_7_text{
     padding-top: 20px;
 
     position: relative;
@@ -481,18 +481,18 @@ div div h4{
     justify-content: center;
     align-self: center;
 }
-.main_7_icon{
+.sg_main_7_icon{
     width: 50px;
     height: auto;
 }
-.main_7_circle_b{
+.sg_main_7_circle_b{
     display: none;
 }
 
-footer{
+.sg_footer{
     background-color: #242324;
 }
-footer h5 {
+.sg_footer h5 {
     text-align: center;
     color: #fff;
     font-weight: 300;
@@ -500,30 +500,30 @@ footer h5 {
 
 
 @media screen and (min-width: 768px){
-    body{
+    .samsung_page{
         font-size: 14px;
     }
-    .main_1_text{
+    .sg_main_1_text{
         max-width: 600px;
     }
-    .main_3{
+    .sg_main_3{
         flex-direction: row;
     }
 }
 @media screen and (min-width: 1024px){
-    body{
+    .samsung_page{
         font-size: 16px;
     }
-    .main_1{
+    .sg_main_1{
         padding-bottom: 150px;
     }
-    .nav{
+    .sg_nav{
         flex-direction: row;
     }
-    .main_2_text{
+    .sg_main_2_text{
         max-width: 500px;
     }
-    .main_2_img{
+    .sg_main_2_img{
         display: inherit;
         position: absolute;
         width: 200px;
@@ -531,13 +531,13 @@ footer h5 {
         left: 600px;
         bottom: 50px;
     }
-    .main_2_list{
+    .sg_main_2_list{
         flex-direction: row;
     }
-    .main_5{
+    .sg_main_5{
         flex-direction: row;
     }
-    .main_6_phone{
+    .sg_main_6_phone{
         display: inherit;
         position: relative;
         width: 300px;
@@ -545,18 +545,18 @@ footer h5 {
     }
 }
 @media screen and (min-width: 1360px){
-    body{
+    .samsung_page{
         font-size: 18px;
     }
-    .main_1{
+    .sg_main_1{
         display: flex;
         flex-direction: row;
     }
-    .main_1_text{
+    .sg_main_1_text{
         position: relative;
         padding-left: 50px;
     }
-    .main_1_img{
+    .sg_main_1_img{
         display: inherit;
         position: relative;
         bottom: 90px;
@@ -567,7 +567,7 @@ footer h5 {
         overflow: hidden;
         padding-bottom: 50px;
     }
-    .main_1_img_2{
+    .sg_main_1_img_2{
         display: inherit;
         position: absolute;
         bottom: 86px;
@@ -577,17 +577,17 @@ footer h5 {
         height: 200px;
         overflow: hidden;
     }
-    .main_2_img{
+    .sg_main_2_img{
         top: 300px;
         left: 850px;
     }
-    .circulo{
+    .sg_circulo{
         display: inherit;
     }
-    .circulo_2{
+    .sg_circulo_2{
         display: inherit;
     }
-    .main_7_circle_a{
+    .sg_main_7_circle_a{
         display: inherit;
         position: relative;
         bottom: 150px;
@@ -603,7 +603,7 @@ footer h5 {
             );
         
     }
-    .main_7_circle_b{
+    .sg_main_7_circle_b{
         display: inherit;
         position: relative;
         z-index: 2;
@@ -616,7 +616,7 @@ footer h5 {
             to right, red,
             #93a1fd);
     }
-    .container_circle{
+    .sg_container_circle{
         position: relative;
         right: 50px;
         width: 300px;
@@ -624,7 +624,7 @@ footer h5 {
         overflow: hidden;
        
     }
-    .container_circle_b{
+    .sg_container_circle_b{
         position: relative;
         left: 50px;
         width: 400px;

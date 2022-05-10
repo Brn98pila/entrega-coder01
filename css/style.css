@@ -31,7 +31,7 @@
         font-size: 18px;
     }
     
-    main{
+    .portfolio_main{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -44,20 +44,20 @@
         height: 570px;
         
     }
-    .titulo{
+    .portfolio_titulo{
         position: relative;
     }
-    .titulo_2{
+    .portfolio_titulo_2{
         display: none;
         position: absolute;
         top: 250px;
     }
-    .titulo:active + .titulo_2{
+    .portfolio_titulo:active + .titulo_2{
     
         display: block;
         position: absolute;
     }
-    .titulo:active{
+    .portfolio_titulo:active{
         opacity: 0;
     }
     
@@ -70,12 +70,13 @@
     }
 
     h2{
-        font-size: 48px;
+        font-size: 44px;
     }
     p{
         font-family: 'Regular', sans-serif;
         line-height: 31px;
         font-size: 18px;
+        width: 90%;
 
     }
     
@@ -84,29 +85,29 @@
     
     }
     
-    .main_img{
+    .portfolio_main_img{
         height: 570px;
         width: auto;
     }
     
-    .a{
+    .portfolio_a{
     color: #2538cc;
     }
-    .b{
+    .portfolio_b{
         color: #fff;
         }
-    .c{
+    .portfolio_c{
         color: #fff;
         }
     
     article{
-        padding: 40px 10px 50px 10px;
+        padding: 40px 0px 50px 10px;
         display: flex;
         flex-direction: column;
     
         text-align: left;
     }
-    .art_proyectos{
+    .portfolio_art_proyectos{
     
         display: flex;
         flex-direction: column;
@@ -117,7 +118,7 @@
         align-content: center;
         align-items: center;
     }
-    .proyecto{
+    .portfolio_proyecto{
         display: flex;
         align-items: flex-end;
         border: 1px;
@@ -150,11 +151,11 @@
 
     @media screen and (min-width: 768px)
     {
-        .art_proyectos{
+        .portfolio_art_proyectos{
             flex-direction: row;
             flex-wrap: wrap;
         }
-        main{
+        .portfolio_main{
             background-position: 400px -180px;
             background-repeat: no-repeat;
             background-size: 450px;
@@ -173,7 +174,7 @@
 
     }
     @media screen and (min-width: 1023px){
-        main{
+        .portfolio_main{
             background-position: 500px -170px;
             background-repeat: no-repeat;
             background-size: 400px;

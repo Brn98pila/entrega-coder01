@@ -21,7 +21,7 @@ ul li{
     list-style-type:none;
 }
 /* Navegador */
-.nav{
+.ch_nav{
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -32,11 +32,11 @@ ul li{
     padding: 0%;
     z-index: 100;
 }
-.logo img{
+.ch_logo img{
     width: 80px;
     height: auto;
 }
-.navegador{
+.ch_navegador{
     position: relative;
     top: 20px;
 
@@ -78,7 +78,7 @@ ul li{
 
 }
 /* MAIN 1 */
-.main__1{
+.ch_main__1{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@ ul li{
     padding-left: 15px;
     background-color: #E8E3D7;
 }
-.main__1__izq{
+.ch_main__1__izq{
     display: flex;
     flex-direction: column;
     color: #93A9D1;
@@ -95,41 +95,45 @@ ul li{
 
 
 }
-.main__1__izq h1{
+.ch_main__1__izq h1{
     line-height: 40px;
     font-weight: 300;
     position: relative;
     font-size: 32px;
     line-height: 38px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 500px;
 }
-.main__1__izq__list{
+.ch_main__1__izq__list{
     position: relative;
-    right: 40px;
+    margin-left: 0px !important;
 }
-.main__1__button__1, .main__1__button__2, .main__1__button__3{
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(218, 214, 214);
-    border-radius: 5px;
-    min-width: 280px;
-    text-align: left;
-    padding: 20px 0px 20px 5px;
-    margin: 0px 0px 10px;
+.ch_main__1__button__1, .ch_main__1__button__2, .ch_main__1__button__3{
+    border: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(218, 214, 214) !important;
+    border-radius: 5px!important;
+    min-width: 280px !important;
+    text-align: left !important;
+    padding: 20px 0px 20px 5px !important;
+    margin: 0px 0px 10px  !important;
 
     background-color: #fff;
 
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    color: #5A5B9E !important;
 }
-.main__1__button__1:hover, .main__1__button__2:hover, .main__1__button__3:hover{
-    box-shadow: 3px 3px 9px grey;
-    background-color: #3c3d6b;
-    color: #fff;
+.ch_main__1__button__1:hover, .ch_main__1__button__2:hover, .ch_main__1__button__3:hover{
+    box-shadow: 3px 3px 9px grey !important;
+    background-color: #3c3d6b !important;
+    color: #fff !important;
 }
 /* MAIN 2 */
 
-.main__2{
+.ch_main__2{
 padding-top: 40px;
 display: flex;
 flex-direction: column;
@@ -137,18 +141,21 @@ padding-left: 15px;
 background-color: #B993DE;
 color: #fff;
 }
-.main__2__izq h2{
+.ch_main__2__izq h2{
 font-size: 32px;
 font-weight: 400;
 line-height: 40px;
 }
-.main__2__drc{
+.ch_main__2__drc{
     font-size: 20px;
     line-height: 20px;
     font-weight: 600;
 }
+.ch_main__2__drc p{
+    padding-top: 15px;
+}
 
-.main__2__drc__browser{
+.ch_main__2__drc__browser{
     font-size: 28px;
     display: flex;
     flex-direction: column;
@@ -179,20 +186,21 @@ text-align: left;
 
 /* MAIN 3 */
 
-.main__3{
+.ch_main__3{
     display: flex;
     flex-direction: column;
     background-color: #5D5A9D;
     color: #fff;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
-.main__3__h2{
+.ch_main__3__h2{
     font-size: 32px;
     line-height: 40px;
     font-weight:500;
 }
 
-.button__main__3{
+.ch_button__main__3{
     padding: 12px 25px 12px 25px;
     border: 1px solid;
     border-radius: 30px;
@@ -210,19 +218,19 @@ text-align: left;
 
 /* MAIN 4 */
 
-.main__4{
+.ch_main__4{
     display: flex;
     flex-direction: column-reverse;
     padding: 40px 0px 100px 15px;
     background-color: #D7B2D4;
     color: #fff;
 }
-.main__4__h3{
+.ch_main__4__h3{
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
 }
-.main__4__p{
+.ch_main__4__p{
     font-size: 18px;
     line-height: 24px;
     font-weight: 200;
@@ -230,7 +238,7 @@ text-align: left;
 
 /* MAIN 5 */
 
-.main__5{
+.ch_main__5{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -238,18 +246,18 @@ text-align: left;
 
     padding-left: 15px;
 }
-.main__5__a{
+.ch_main__5__a{
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
 }
-.main__5 h3{
+.ch_main__5 h3{
     font-size: 32px;
     line-height: 40px;
     font-weight: 600;
     color: #3c3d6b;
 }
-.main__5__a__button{
+.ch_main__5__a__button{
     padding: 15px 15px 15px 15px;
     border: 1px solid #5A5B9E;
     border-color: #5A5B9E;
@@ -263,12 +271,12 @@ text-align: left;
     background-color: #fff;
     color: #5A5B9E;
 }
-.main__5__b{
+.ch_main__5__b{
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
 }
-.main__5__b__button{
+.ch_main__5__b__button{
     padding: 30px 15px 30px 15px;
     border: 1px solid #5A5B9E;
     border-color: #5A5B9E;
@@ -284,17 +292,17 @@ text-align: left;
 }
 
 /* MAIN 6 */
-.main__6{
+.ch_main__6{
     padding-left: 15px;
     padding-bottom: 40px;
     background-color: white;
 }
-.main__6 h3{
+.ch_main__6 h3{
     font-size: 32px;
     line-height: 40px;
     font-weight: 300;
 }
-.main__6 button{
+.ch_main__6 button{
     border: 1px solid #5A5B9E;
     border-radius: 30px;
     padding: 10px 20px 10px 20px;
@@ -307,23 +315,23 @@ text-align: left;
     color: #fff;
 }
 
-.main__6__photo{
+.ch_main__6__photo{
     display: none;
 }
 
 /* FOOTER */
 
-footer{
+.ch_footer{
     background-color: #E8E3D7;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-footer h4{
+.ch_footer h4{
 color: #5A5B9E;
 font-weight: 700;
 }
-.footer__table{
+.ch_footer__table{
 display: grid;
 width: 100%;
     grid-template-columns: 40% 20% 20% 20%;
@@ -333,30 +341,30 @@ width: 100%;
     "soluciones"
     "directorio";
 }
-.table__1{
+.ch_table__1{
 grid-area: logo;
 display: flex;
 }
-.table__2{
+.ch_table__2{
 grid-area: general;
 display: flex;
 flex-direction: column;
 }
-.table__3{
+.ch_table__3{
 grid-area: soluciones;
 display: flex;
 flex-direction: column;
 }
-.table__4{
+.ch_table__4{
 grid-area: directorio;
 display: flex;
 flex-direction: column;
 }
-.table__1 img{
+.ch_table__1 img{
     width: 100px;
     height: auto;
 }
-.footer a{
+.ch_footer a{
 color: black;
 
 font-size: 16px;
@@ -364,10 +372,10 @@ font-weight: 600;
 line-height: 20px;
 padding: 5px 0px 5px 0px;
 }
-.footer a:hover{
+.ch_footer a:hover{
 color: #5A5B9E;
 }
-.footer a:focus{
+.ch_footer a:focus{
     color: #000;
 }
 img{
