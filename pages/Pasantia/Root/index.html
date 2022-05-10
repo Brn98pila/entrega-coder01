@@ -7,9 +7,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <!--Bootstrap-->
-
     <!-- Enlaces Tipografias -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,38 +18,37 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <div class="logo">
+        <nav class="ch_nav">
+            <div class="ch_logo">
                 <img src="./images/logo.jfif"> 
             </div>
-            <div class="navegador">
+            <div class="ch_navegador">
                 <button type="button" href="./index.html" class="unirse__button"><a href="../../../index.html">Volver</a></button>
                 <button type="button" href="XXX" class="iniciar__button">Iniciar Sesion</button>
             </div>
         </nav>
     </header>
    <main>
-    <div class="main__1">
-        <div class="main__1__izq">
+    <div class="ch_main__1 row">
+        <div class="ch_main__1__izq">
             <h1>¡Te damos la bienvenida a tu comunidad profesional!</h1>
-            <div class="main__1__izq__list"><ul>
-                <li><button href="XXX" type="button" class="main__1__button__1">Buscar un empleo</button></li>
-                <li><button href="XXX" type="button" class="main__1__button__2">Encontrar personas que conoces</button></li>
-                <li><button href="XXX" type="button" class="main__1__button__3">Adquirir una nueva aptitud</button></li>
-            </ul>
+            <div class="d-grid gap-2 col-6 mx-auto ch_main__1__izq__list">
+                <button class="btn btn-primary ch_main__1__button__1" type="button">Buscar un empleo</button>
+                <button class="btn btn-primary ch_main__1__button__2" type="button">Encontrar a peronas que conoces</button>
+                <button class="btn btn-primary ch_main__1__button__3" type="button">Adquirir una nueva aptitud</button>
+              </div>
         </div>
-        </div>
-        <div class="main__1__drc">
-            <img class="main__1__drc__photo">
+        <div class="ch_main__1__drc">
+            <img class="ch_main__1__drc__photo">
         </div>
     </div>
-    <div class="main__2">
-        <div class="main__2__izq">
-            <h2 class="main__2__izq__h2">Encuentra el empleo o las practicas adecuadas para ti</h2>
+    <div class="ch_main__2 row">
+        <div class="ch_main__2__izq col">
+            <h2 class="ch_main__2__izq__h2">Encuentra el empleo o las practicas adecuadas para ti</h2>
             
-            <div class="main__2__drc">
+            <div class="ch_main__2__drc col">
                 <p>BUSQUEDAS SUGERIDAS</p>
-                <div class="main__2__drc__browser">
+                <div class="ch_main__2__drc__browser">
                     <a class="browser__1" href="XXXX">Ingeniería</a>
                     <a class="browser__2" href="XXXX">Desarrollo Empresarial</a>
                     <a class="browser__3" href="XXXX">Finanzas</a>
@@ -65,55 +65,55 @@
             </div>
         </div>
     </div>
-    <div class="main__3">
-        <div class="main__3__h2">
+    <div class="ch_main__3 row">
+        <div class="ch_main__3__h2">
             <h3>Publica tu anuncio de empleo para que lo vean millones de personas</h3>
         </div>
-        <div class="main__3__button">
-            <button type="button" class="button__main__3"><a href="XXXX">Publicar un empleo </a></button>
+        <div class="ch_main__3__button">
+            <button type="button" class="ch_button__main__3"><a href="XXXX">Publicar un empleo </a></button>
         </div>
     </div>
-    <div class="main__4">
+    <div class="ch_main__4 row">
         <div >
-            <h3 class="main__4__h3">Informa a las personas adecuadas de que buscas empleo</h3>
-            <div class="main__4__p"> <p class="p_4">La funcionalidad Open To Work te permite indicar que buscas empleo, ya sea en privado a los técnicos de seleccion o publicamente a todo Linkedln</p>
+            <h3 class="ch_main__4__h3">Informa a las personas adecuadas de que buscas empleo</h3>
+            <div class="ch_main__4__p"> <p class="p_4">La funcionalidad Open To Work te permite indicar que buscas empleo, ya sea en privado a los técnicos de seleccion o publicamente a todo Linkedln</p>
             </div>
          </div>
         <div>
-            <iframe class="main__4__iframe" src="https://www.youtube.com/embed/wU9X0qMdDZc?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="ch_main__4__iframe" src="https://www.youtube.com/embed/wU9X0qMdDZc?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="main__5">
-        <div class="main__5__a">
-            <img src="images/connect.png" class="main__5__a__photo">
-            <div class="main__5__a__izq">
+    <div class="ch_main__5 row">
+        <div class="ch_main__5__a col">
+            <img src="images/connect.png" class="ch_main__5__a__photo">
+            <div class="ch_main__5__a__izq">
                 <h3>Conecta con personas que te pueden ayudar</h3>
-                <button href="XXX" type="button" class="main__5__a__button"><a>Encuentra a personas que conoces</a></button>
+                <button href="XXX" type="button" class="ch_main__5__a__button"><a>Encuentra a personas que conoces</a></button>
             </div>
         </div>
-        <div class="main__5__b">
-            <img src="images/study.png" class="main__5__b__photo">
-            <div class="main__5__b__drc">
+        <div class="ch_main__5__b col">
+            <img src="images/study.png" class="ch_main__5__b__photo">
+            <div class="ch_main__5__b__drc">
                 <h3>Adquiere las aptitudes necesaras para triunfar</h3>
-                <button href="XXX" type="button" class="main__5__b__button"><a>Elige un tema para aprender</a></button>
+                <button href="XXX" type="button" class="ch_main__5__b__button"><a>Elige un tema para aprender</a></button>
             </div>
         </div>
     </div>
-    <div class="main__6">
-        <h3 class="main__6__h3">Sumate a tus compañeros y amigos en Linkedln</h3>
-        <button class="main__6__button"><a href="XXX">Comenzar</a></button>
-        <img src="images/city.svg" class="main__6__photo">
+    <div class="ch_main__6 row">
+        <h3 class="ch_main__6__h3">Sumate a tus compañeros y amigos en Linkedln</h3>
+        <button class="ch_main__6__button"><a href="XXX">Comenzar</a></button>
+        <img src="images/city.svg" class="ch_main__6__photo">
     </div>
    </main>
         
-    <footer> 
+    <footer class="ch_footer row"> 
         </div>
-        <div class="footer__table">
-            <div class="table__1">
+        <div class="ch_footer__table">
+            <div class="ch_table__1">
                 <img src="./images/logo.jfif"> 
 
             </div>
-            <div class="table__2">
+            <div class="ch_table__2">
                 <h4>General</h4>
                 <a href="#">Registrate</a>
                 <a href="#">Centro de ayuda</a>
@@ -123,14 +123,14 @@
                 <a href="#">Empleos</a>
                 <a href="#">Desarrolladores</a>
             </div>
-            <div class="table__3">
+            <div class="ch_table__3">
                 <h4>Soluciones empresariales</h4>
                 <a href="#">Talentos</a>
                 <a href="#">Marketing</a>
                 <a href="#">Ventas</a>
                 <a href="#">Learning</a>
             </div>
-            <div class="table__4">
+            <div class="ch_table__4">
                 <h4>Directorios</h4>
                 <a href="#">Empleos</a>
                 <a href="#">Empresas</a>
@@ -147,6 +147,7 @@
             </div>
         </div>
     </footer>
-
+  <!-- Link JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
