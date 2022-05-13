@@ -1,0 +1,235 @@
+.growshop{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #040404;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight:300;
+    line-height: 24px;
+    font-style: light;
+    h1{
+        font-weight: 400;
+        margin: 0%;
+    }
+    a{
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    h2{
+        font-weight: 400px;
+        line-height: 24px;
+    }
+    h3{
+        font-weight: 400px;
+        line-height: 24px;
+    }
+    h4{
+        font-weight: 400;
+    }
+    ul li{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        div ul{
+            margin-left: 20px;
+        }
+        div img{
+            width: 50px;
+            height: auto;
+        }
+    }
+}
+
+/*MAIN*/
+
+.grow_main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, 650px);
+    grid-row-gap: 15px;
+    grid-template-areas: 
+    "main1"
+    "main2"
+    "main3"
+    "main4"
+    "main5"
+    "main6"
+    "main7"
+    "main8"
+    "main9";
+    .grow_main_1{
+        grid-area: "main1";
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    
+        background-image: url(../pages/Growshop/images/main1.jpg);
+        background-size: cover;
+        background-position: top;
+        
+        background-repeat: no-repeat;
+    
+        box-shadow: inset 10px 10px 100px #040404;
+    }
+    .grow_main_2{
+        @extend .grow_main_1;
+        grid-area: "main2";
+        background-image: url(../pages/Growshop/images/main2.jpg);
+
+    }
+    .grow_main_3{
+        @extend .grow_main_1;
+        grid-area: "main3";
+        background-image: url(../pages/Growshop/images/main3.jpg);
+
+    }
+    .grow_main_4{
+        @extend .grow_main_1;
+        grid-area: "main4";
+        background-image: url(../pages/Growshop/images/main4.jpg);
+
+    }
+    .grow_main_5{
+        @extend .grow_main_1;
+        grid-area: "main5";
+        background-image: url(../pages/Growshop/images/main5.jpg);
+
+    }
+    .grow_main_6{
+        @extend .grow_main_1;
+        grid-area: "main6";
+        background-image: url(../pages/Growshop/images/main6.jpg);
+
+    }
+    .grow_main_7{
+        @extend .grow_main_1;
+        grid-area: "main7";
+        background-image: url(../pages/Growshop/images/main7.jpg);
+
+    }
+    .grow_main_8{
+        @extend .grow_main_1;
+        grid-area: "main8";
+        background-image: url(../pages/Growshop/images/main8.jpg);
+
+    }
+    .grow_main_9{
+        @extend .grow_main_1;
+        grid-area: "main9";
+        background-image: url(../pages/Growshop/images/main9.jpg);
+
+    }
+}
+
+/*FOOTER*/
+
+.grow_footer{
+    padding: 15px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "footer1"
+    "footer2"
+    "footer3";
+    .grow_footer_1{
+        grid-area: "footer1";
+        margin-bottom: 17px;
+        margin-top: 17px;
+        background-color: #000 !important;
+        color: #000 !important;
+    }
+    .grow_footer_2{
+        grid-area: "footer2";
+    }
+    .grow_footer_3{
+        grid-area: "footer3";
+        h3{
+            display: block;
+            text-align: center;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+        }
+        ul{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 0%;
+        }
+    }
+    hr{
+        width: 100%;
+        border-radius: 1px;
+        border-color: #999;
+    }
+}
+
+/* MEDIAS QUERYS */
+
+
+@media only screen and (min-width: 768px){
+    .grow_main{
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-template-rows: repeat(6, 650px);
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-template-areas: 
+        "main1  main1"
+        "main2  main2"
+        "main3  main3"
+        "main4  main5"
+        "main6  main7"
+        "main8  main9";
+    }
+.grow_main_1{
+    grid-area: main1;
+}
+.grow_main_2{
+    grid-area: main2;
+}
+.grow_main_3{
+    grid-area: main3;
+}
+.grow_main_4{
+    grid-area: main4;
+}
+.grow_main_5{
+    grid-area: main5;
+}
+.grow_main_6{
+    grid-area: main6;
+}
+.grow_main_7{
+    grid-area: main7;
+}
+.grow_main_8{
+    grid-area: main8;
+}
+.grow_main_9{
+    grid-area: main9;
+}
+.grow_nav_1 ul{
+    display: flex;
+    flex-direction: row;
+}
+.grow_nav_1 ul li{
+    padding: 5px;
+
+}
+}
+@media only screen and (min-width: 1024px){
+    .grow_nav{
+        justify-content: center !important;
+    }
+}
+
+
