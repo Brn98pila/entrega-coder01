@@ -51,10 +51,13 @@
     }
 }
 /*NAV*/
+@mixin flex ($flex, $column, $space-a){
+display: $flex;
+flex-direction: $column;
+justify-content: $space-a; 
+}
 .sg_nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+   @include flex(flex,column,space-around);
     align-items: center;
     z-index: 10;
     ul{
@@ -217,10 +220,8 @@
 .sg_main_2_list{
     grid-area: tarjetas;
 
-    display: flex;
-    flex-direction: column;
+    @include flex(flex,column,center);
     flex-wrap: wrap;
-    justify-content:center;
     padding-top: 30px;
     text-align: left;
     align-content: center;
@@ -363,9 +364,7 @@
 
 .sg_main_5{
     background-color: #F8F6F8;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
+    @include flex(flex,column,space-around);
     align-items: center;
     padding-bottom: 200px;
     .sg_main_5_a{
@@ -409,9 +408,7 @@
 .sg_main_6{
     background-color: #242324;
     color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex(flex,row,space-around);
     align-items: center;
     padding: 30px;
     max-height: 500px;
@@ -445,9 +442,7 @@
 /* MAIN 7 */
 
 .sg_main_7{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex(flex,row,space-around);
     .sg_container_circle{
         .sg_main_7_circle_a{
             display: none;

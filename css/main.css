@@ -150,19 +150,19 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
 
 .hi-1 {
-  background-image: url("../pages/Estudio/images/main-1.png"); }
+  background-image: url("../pages/Estudio/images/main-1.jpg"); }
 
 .hi-2 {
-  background-image: url("../pages/Estudio/images/main-2.png"); }
+  background-image: url("../pages/Estudio/images/main-2.jpg"); }
 
 .hi-3 {
   background-image: url("../pages/Estudio/images/main-3-policia.png"); }
 
 .hi-4 {
-  background-image: url("../pages/Estudio/images/main-4-sucesorio.png"); }
+  background-image: url("../pages/Estudio/images/main-4-sucesorio.jpg"); }
 
 .hi-5 {
-  background-image: url("../pages/Estudio/images/main-3.png"); }
+  background-image: url("../pages/Estudio/images/main-3.jpg"); }
 
 /*  SECTION: Overlay Menu Section
 ----------------------------------------------- */
@@ -1045,8 +1045,8 @@
     grid-area: tarjetas;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 30px;
     text-align: left;
     align-content: center;
